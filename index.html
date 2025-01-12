@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Mobile App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="overflow-hidden md:overflow-auto lg:overflow-hidden">
+    <div class="wrapper w-full h-screen flex flex-col relative top-[2em] md:px-[8em] lg:px-[0] lg:flex-row">
+        <nav class="navbar flex w-full md:w-[70%] h-[4em] bg-blue-400 items-center  text-white fixed top-0 px-[3em] text-lg z-10 lg:w-full lg:justify-between lg:px-[   5em]">
+            <h2 class="font-bold">Logo</h2>
+            <ul class="flex w-[30%] justify-between items-center invisible lg:visible">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </nav>
+        <div class="left w-[100%] h-[85%] bg-white flex items-center md:h-screen lg:w-[50%] lg:h-screen ">
+            <img src="./public/mobileimg.jpg" alt="mobile background" class="w-[100%] h-[90%] lg:h-[100%]">
+        </div>
+        <div class="right w-[100%] h-[100%] md:h-[] bg-slate-200 flex flex-col items-center justify-center gap-[3em] relative lg:w-[50%] lg:h-screen lg:justify-between lg:py-[8em]">
+            <div class="text flex flex-col items-center w-full h-[15em] justify-center absolute top-[2em] gap-[2em] text-center lg:relative">
+                <h2 class="text-2xl font-semibold">Enjoy Our New Map App</h2>
+                <p class="text-sm px-[8em]">Support in all mobile phones whose currntly on Android 10 or above versions.</p>
+                <button class="bg-blue-400 py-[1em] px-[4em] text-white font-semibold hover:bg-blue-500 hover:rounded-xl transition-all ease-in-out  duration-200">Download Now</button>
+            </div>
+            <div class="logos md:bg-slate-300 md:w-[60%] md:right-[7em] rounded-xl  w-[70%] h-[2em] right-[4em] lg:top-[15em] absolute md:bottom-[18em] bottom-[11.5em] lg:right-[3em] flex lg:flex-col items-center justify-center gap-[3em] p-[1.3em] lg:absolute lg:w-[5em] lg:h-[15em] lg:top-[20em]">
+                <img src="./public/playstore.png" alt="playstore" class="w-[2em] h-[2em]">
+                <img src="./public/appstore.png" alt="appstore" class="w-[2em] h-[2em]">
+                <img src="./public/getapp.png" alt="getapp" class="w-[2em] h-[2em]">
+            </div>
+            <div class="botomdiv w-full h-[30em] bg-re-400 absolute bottom-0 flex items-center justify-items-center gap-[1em]">
+                <div class="box1 bg-blue-00 w-full h-[100%] flex justify-center items-center">
+                    <img src="./public/mobiles3.png" alt="three mobiles" class="w-[100%] absolute bottom-[-4em] lg:absolute">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
